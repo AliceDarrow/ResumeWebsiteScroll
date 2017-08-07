@@ -1,0 +1,124 @@
+
+html, body {
+  height:100vh;
+  max-width: 1500px;
+  margin: 0 auto;
+  padding-top: 00px;
+}
+
+p {
+  font-size: 2vw;
+  font-family: 'Abel', sans-serif;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+.bg-1 {
+    background-color:#afc2d5;
+    color: #f7ece1;
+}
+
+.col-centered {
+  text-align: center;
+}
+
+#Headers {
+  text-align: center;
+  font-family: 'Abel', sans-serif;
+  font-size: 48px;
+  color:  #333;
+}
+.social-media-icons {
+  text-align: center;
+  font-size: 24px;
+  color: #a30b37;
+}
+
+.titles {
+  font-family: 'Abel', sans-serif;
+  font-size: 24px;
+  text-align: center;
+}
+.info {
+  font-family: 'Abel', sans-serif;
+  text-align: center;
+  font-size: 18px;
+}
+
+#info-icons {
+  font-size: 2.5em;
+  text-align: center;
+}
+.fa {
+  text-align: center;
+}
+#Project {
+  background-color: #9BB2CD;
+
+}
+
+#Research {
+  background-color: #87A2C5;
+}
+
+#Resume {
+  background-color: #7392BD;
+}
+
+#Contact {
+  background-color: #6083B5;
+}
+
+#about {
+  text-align: center;
+  font-size: 18px;
+}
+
+#main-left {
+  height: 100vh;
+  padding-left: 0px;
+  background-color: #afc2d5;
+}
+
+#main-photo {
+  margin: 0 auto;
+  display: block;
+  background-color: white;
+  border: 0px;
+  margin-top: 3em;
+}
+
+#main-right {
+  height: 100vh;
+  background-color: white;
+}
+
+
+#Name {
+  font-family: 'Abel', sans-serif;
+  font-size: 64px;
+  text-align: center;
+  color: #333;
+}
+
+#navBar {
+  text-align: center;
+  font-size: 18px;
+  color: #333;
+  text-decoration: none;
+}
+#resumeLink {
+border: solid 2px #333;
+padding: .5em;
+text-decoration: none;
+color: #333;
+}
+
+.btn{
+background-color: #333;
+color: white;
+text-decoration: none;
+}

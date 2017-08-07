@@ -1,0 +1,50 @@
+body {
+    font-family: 'Abel', sans-serif;
+}
+
+p {
+  width: 50%;
+  color: #2A2B2A;
+}
+
+
+.btn {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  background-color: #A30B37;
+  color: white;
+  text-decoration: none;
+}
+.col-lg-3 {
+  text-align: center;
+}
+
+.fa {
+  color: #AFC2D5;
+  font-size: 80px;
+  text-align: center;
+  margin-top: 1em;
+}
+.resume-header {
+  color: white;
+  font-size: 64px;
+  text-align: center;
+  font-family: 'Abel', sans-serif;
+  width: 100%;
+}
+.resume-title {
+  color: #AFC2D5;
+}
+
+#navBar {
+  text-align: center;
+  margin-top: -1em;
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+
+}
+#resume-right {
+  background-color: #A30B37;
+  height: 8em;
+}
