@@ -16,6 +16,15 @@ a {
   text-decoration: none;
   color: #333;
 }
+a:focus{
+  color: #333;
+}
+a:hover{
+  color: #333;
+}
+i {
+  color: #333;
+}
 .bg-1 {
     background-color:#afc2d5;
     color: #f7ece1;
@@ -51,6 +60,7 @@ a {
 #info-icons {
   font-size: 2.5em;
   text-align: center;
+  color: #333;
 }
 .fa {
   text-align: center;
@@ -70,6 +80,10 @@ a {
 
 #Contact {
   background-color: #6083B5;
+  font-size: 2.5em;
+  text-align: center;
+  color: #333;
+  text-decoration: none;
 }
 
 #about {
