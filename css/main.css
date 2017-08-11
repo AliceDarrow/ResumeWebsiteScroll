@@ -1,9 +1,13 @@
 
 html, body {
-  height:100vh;
-  max-width: 1500px;
+  max-width: 100vw;
   margin: 0 auto;
   padding-top: 00px;
+  background-color: white;
+  min-height: 100vh;
+  height: 100%;
+  font-family: 'Abel', sans-serif;
+
 }
 
 p {
@@ -15,87 +19,60 @@ p {
 a {
   text-decoration: none;
   color: #333;
+  font-size: 24px;
 }
-.bg-1 {
-    background-color:#afc2d5;
-    color: #f7ece1;
+i {
+  color: #333;
 }
-
-.col-centered {
+h1 {
+  font-family: 'Abel', sans-serif;
+}
+h2 {
   text-align: center;
+  font-family: 'Abel', sans-serif;
+  font-size: 40px;
+  color:  #333;
+  text-decoration: none;
+  font-weight: bold;
 }
 
-#Headers {
+h3 {
   text-align: center;
   font-family: 'Abel', sans-serif;
   font-size: 48px;
   color:  #333;
-}
-.social-media-icons {
-  text-align: center;
-  font-size: 24px;
-  color: #a30b37;
-}
+  text-decoration: underline;
 
-.titles {
-  font-family: 'Abel', sans-serif;
-  font-size: 24px;
-  text-align: center;
 }
-.info {
-  font-family: 'Abel', sans-serif;
-  text-align: center;
-  font-size: 18px;
+#Contact {
+  color: #333;
+}
+#git{
+  color: #24292e;
 }
 
 #info-icons {
-  font-size: 2.5em;
+  font-size: 2em;
   text-align: center;
 }
-.fa {
-  text-align: center;
-}
-#Project {
-  background-color: #9BB2CD;
 
-}
-
-#Research {
-  background-color: #87A2C5;
-}
-
-#Resume {
-  background-color: #7392BD;
-}
-
-#Contact {
-  background-color: #6083B5;
-}
-
-#about {
-  text-align: center;
-  font-size: 18px;
-}
-
-#main-left {
-  height: 100vh;
-  padding-left: 0px;
+#leftpanel {
   background-color: #afc2d5;
+  text-align: center;
+  margin: 0;
+  padding 3px;
+  border: solid .25em #333;
+  border-right: 0em;
+
 }
 
 #main-photo {
   margin: 0 auto;
   display: block;
-  background-color: white;
   border: 0px;
-  margin-top: 3em;
+  margin-top: 2em;
+  border: solid #333;
 }
-
-#main-right {
-  height: 100vh;
-  background-color: white;
-}
-
 
 #Name {
   font-family: 'Abel', sans-serif;
@@ -104,21 +81,74 @@ a {
   color: #333;
 }
 
-#navBar {
-  text-align: center;
+#personalStatement {
   font-size: 18px;
-  color: #333;
-  text-decoration: none;
+  padding-top: 10px;
 }
+
 #resumeLink {
-border: solid 2px #333;
 padding: .5em;
 text-decoration: none;
 color: #333;
 }
 
-.btn{
-background-color: #333;
-color: white;
-text-decoration: none;
+#rightpanel {
+  border: solid .25em #333;
+  text-align: center;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  font-family: none;
+
+
+}
+
+#twitter{
+  color: #1DA1F2;
+}
+
+.box {
+  border-color: #333;
+  border-radius: 2px;
+  border: solid;
+
+}
+
+.email {
+  text-decoration: underline;
+  color: #333;
+}
+
+.height {
+  height: 100%;
+}
+
+.info {
+  font-family: 'Abel', sans-serif;
+  text-align: center;
+  font-size: 18px;
+
+}
+.resumeButton{
+  border: solid #333;
+  padding: 3px;
+  background-color: #C97B84;
+}
+.rightHeader{
+  font-family: 'Abel', sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+}
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.titles {
+  font-family: 'Abel', sans-serif;
+  font-size: 24px;
+  text-align: center;
+  color: #333;
 }
