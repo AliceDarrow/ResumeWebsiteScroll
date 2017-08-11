@@ -21,6 +21,7 @@ a {
   color: #333;
   font-size: 24px;
 }
+
 i {
   color: #333;
 }
@@ -54,6 +55,7 @@ h3 {
 #info-icons {
   font-size: 2em;
   text-align: center;
+  color: #333;
 }
 
 #leftpanel {
@@ -73,6 +75,7 @@ h3 {
   margin-top: 2em;
   border: solid #333;
 }
+
 
 #Name {
   font-family: 'Abel', sans-serif;
