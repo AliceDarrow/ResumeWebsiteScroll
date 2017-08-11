@@ -12,74 +12,84 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	</head>
 	<body>
-      <div class="container-fluid bg-1 text-center">
-        <p id="Name">Alice Darrow</p>
-				<img src="img\twitterpropic - Copy.jpg" class="img-responsive img-rounded" id="main-photo" width="200" height="300"/>
-				<p id="navBar"> <a id="navBar" href="#Resume"> Resume</a> | <a id="navBar" href="#Research" >Research</a> | <a id="navBar" href="#Contact">Contact</a> </p>
+<div class="row row-eq-height">
+  <div id="leftpanel" class="col-sm-4">
+    <h1 id="Name">Alice Darrow</h1>
+		<a href="mailto:darr.alice@gmail.com" target="_top"><p class="email">darr.alice@gmail.com</p></a>
+			<img src="img\twitterpropic - Copy.jpg" class="img-responsive img-rounded" id="main-photo" width="200" height="300"/>
+		<p id="personalStatement"> I am a junior studying computer science at the University of Florida. I am interested in educational technology, software development, and designing technology for children.</p>
+  </div>
 
-      </div>
+	<div id="rightpanel" class="text-center col-sm-8">
+		<div>
+				<h2 class="rightHeader"> Projects </h2>
+				<div class="container col-sm-4">
+					<a href="https://github.com/AliceDarrow/MazeGame" target="_blank">
+					<p><i class="fa fa-male" aria-hidden="true"></i></p>
+					<h3 class="titles">Two Row Maze</h3> </a>
+					<p class="info"> An Arduino based maze game, where you must navigate a maze, but you can only see the row in front of you.</p>
+				</div>
+				<div class="col-sm-4">
+					<a href="https://github.com/AliceDarrow/Piano" target="_blank">
+					<p><i class="fa fa-music" aria-hidden="true"></i></p>
+					<h3 class="titles">Arduino Piano</h3> </a>
+					<p class="info"> An arduino based piano that teaches you how to play songs. (In progress) </p>
+				</div>
+				<div class="col-sm-4">
+					<p><i class="fa fa-calculator" aria-hidden="true"></i></p>
+					<h3 class="titles">Scientific Calculator</h3>
+					<p class="info"> A calculator that lets you set and use variables and supports sin and cos functions.</p>
+				</div>
+		</div>
+		<div>
+				<h2 class="rightHeader"> Work Experience </h2>
+				<div class="col-sm-6">
+				<p><i  class="fa fa-search" aria-hidden="true"></i><p>
+				<p class="titles">Research Assistant</p>
+				<p class="info">I am a undergraduate research assitant in the University of Florida's Intelligent Natural Interaction Technology Laboratory (INIT Lab). Where I currently
+				work on the TIDESS project. </p>
+				</div>
+				<div class="col-sm-6">
+					<p><i  class="fa fa-building-o" aria-hidden="true"></i><p>
+					<p class="titles"> Software Engineering Intern</p>
+					<p class="info"> In Summer 2016 I was a software engineering intern with Accusoft in their SAAS department. There I helped write automated tests, worked with their RESTful API, and made basic bug fixes. </p>
+				</div>
+		</div>
+				<h2 class="rightHeader"> Resume </h2>
+		 		<div class="row">
+		 		<div class="col-sm-6">
+		 		<p id="info-icons"><i class="fa fa-laptop" aria-hidden="true"></i></p>
+		 		<h1 class="titles"> Technology Summary </h1>
+		 		<p class="info"><b>Programming Languages:</b> C++, Actionscript, Java, Javascript, Html, CSS, Matlab </p>
+		 		<p class="info"><b>Software:</b> Open Exhibits, Excel, Word</p>
+		 		</div>
+		 		<div class="col-sm-6">
+		 			<p id="info-icons"><i class="fa fa-female" aria-hidden="true"></i></p>
+		 			<h1 class="titles"> Leadership </h1>
+		 			<p class="info"> I am a student supervisor at the Stephen C. O'Connell Center. Here I help lead teams of up to 80
+		 				crew members, assist with building security, and solve customer service related problems.
+		 			</p>
+		 		</div>
+		 	</div>
+		 	<div class="row" >
+			<div>
+			<p class="info"><a href="bin\ADResume.pdf" id="resumeLink" download="ADResume.pdf"> <span class="resumeButton">Click to Download Full Resume </span> </a></p>
+		</div>
+		 </div>
 
 
-	<div id="Project" class="container-fluid">
-		<p id="Headers"> Projects </p>
-		<div class="col-sm-4">
-			<p id="info-icons"><i class="fa fa-male" aria-hidden="true"></i></p>
-			<a href="https://github.com/AliceDarrow/MazeGame" target="_blank"><p class="titles">Two Row Maze</p> </a>
-			<p class="info"> An Arduino based maze game, where you must navigate a maze, but you can only see the row in front of you.</p>
+
+			<div  class="container-fluid infosection">
+				<h2 class="rightHeader"> Contact </h2>
+			</div>
+			<div id="Contact" class="container-fluid">
+				<a href="https://github.com/AliceDarrow"><i id="git" class="fa fa-github" aria-hidden="true"></i></a>
+				<a href="https://twitter.com/alicemdarrow"><i id="twitter" class="fa fa-twitter" aria-hidden="true"></i></a>
+			</div>
+			<div>
+				<a href="mailto:darr.alice@gmail.com" target="_top"><p class="email"> darr.alice@gmail.com </p></a>
+			</div>
 		</div>
-		<div class="col-sm-4">
-			<p id="info-icons"><i class="fa fa-music" aria-hidden="true"></i></p>
-			<a href="https://github.com/AliceDarrow/Piano" target="_blank"><p class="titles">Arduino Piano</p> </a>
-			<p class="info"> An arduino based piano that teaches you how to play songs. (In progress) </p>
-		</div>
-		<div class="col-sm-4">
-			<p id="info-icons"><i class="fa fa-calculator" aria-hidden="true"></i></p>
-			<p class="titles">Scientific Calculator</p>
-			<p class="info"> A calculator that lets you set and use variables and supports sin and cos functions.</p>
-		</div>
-	</div>
-	<div id="Research" class="container-fluid">
-		<p id="Headers"> Work Experience </p>
-		<div class="col-sm-6">
-			<p class="titles">Research Assistant</p>
-			<p class="info">I am a undergraduate research assitant in the University of Florida's Intelligent Natural Interaction Technology Laboratory (INIT Lab). Where I currently
-				work on the TIDESS project.
-				</p>
-		</div>
-		<div class="col-sm-6">
-			<p class="titles"> Software Engineering Intern</p>
-			<p class="info"> In Summer 2016 I was a software engineering intern with Accusoft in their SAAS department. There I helped write automated tests, worked with their RESTful API, and made basic bug fixes. </p>
-		</div>
-	</div>
-	<div id="Resume" class="container-fluid" style="text-align:center">
-		<p id="Headers"> Resume </p>
-		<div class="row">
-		<div class="col-sm-6">
-		<p id="info-icons"><i class="fa fa-laptop" aria-hidden="true"></i></p>
-		<h1 class="titles"> Technology Summary </h1>
-		<p class="info"><b>Programming Languages:</b> C++, Actionscript, Java, Javascript, Html, CSS, Matlab </p>
-		<p class="info"><b>Software:</b> Open Exhibits, Excel, Word</p>
-		</div>
-		<div class="col-sm-6">
-			<p id="info-icons"><i class="fa fa-female" aria-hidden="true"></i></p>
-			<h1 class="titles"> Leadership </h1>
-			<p class="info"> I am a student supervisor at the Stephen C. O'Connell Center. Here I help lead teams of up to 80
-				crew members, assist with building security, and solve customer service related problems.
-			</p>
-		</div>
-	</div>
-	<div class="row" >
-	<p class="info"><a href="bin\ADResume.pdf" id="resumeLink" download="ADResume.pdf"> Click to Download Full Resume </a></p>
 </div>
-</div>
-
-	<div id="Contact" class="container-fluid">
-		<p id="Headers"> Contact </p>
-		<a href="https://github.com/AliceDarrow"><i class="fa fa-github info-icons" aria-hidden="true"></i></a>
-		<a href="https://twitter.com/alicemdarrow"><i class="fa fa-twitter info-icons" aria-hidden="true"></i></a>
-		<!--<i class="fa fa-linkedin" aria-hidden="true"></i> -->
-	</div>
-
-
 	</body>
 </html>
